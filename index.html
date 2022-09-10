@@ -35,20 +35,136 @@
 }
 </style>
 <body>
-    <img style="align-self: center;" src="images/Astha.png" alt="" width="100">
+    <header>
+        <div id="ninesixty">
+            <img style="align-self: center;" src="images/Astha.png" alt="" width="100">
+    </div>
+        
+    </header>
     
     
     <hr>
-    <h1 style="text-align:center;">Welcome To Unoffical 9th-B Website</h1>
-    <h2 style="text-align:center;">Timetable of <p id="date"></p></h2>
-    <img src="images/ttm.png" width="500px" class="center">    
+    <h1 style="text-align:center;">👋Welcome, 😀Student</h1>
+    <h1 style="text-align:center">🕒Exam In <h1 style="color: rgb(252, 221, 69);"id="demo"></h1>
+        
+        <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("Sep 12, 2022 00:00:00").getTime();
+        
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+        
+          // Get today's date and time
+          var now = new Date().getTime();
+        
+          // Find the distance between now and the count down date
+          var distance = countDownDate - now;
+        
+          // Time calculations for days, hours, minutes and seconds
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        
+          // Display the result in the element with id="demo"
+          document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+          + minutes + "m " + seconds + "s ";
+        
+          // If the count down is finished, write some text
+          if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "EXPIRED";
+          }
+        }, 1000);
+        </script>
+        </h1>
+    <h3 style="text-align:center;">Class 9th Session 2022-2023</h3>
+    <h3>👍Best Of Luck For Exams</h3>
+    <!-- CSS Code: Place this code in the document's head (between the <head> -- </head> tags) -->
+<style>
+    table.customTable {
+      width: 100%;
+      background-color: #FFFFFF;
+      border-collapse: collapse;
+      border-width: 2px;
+      border-color: #DBC63B;
+      border-style: solid;
+      color: #000000;
+    }
     
+    table.customTable td, table.customTable th {
+      border-width: 2px;
+      border-color: #DBC63B;
+      border-style: solid;
+      padding: 10px;
+    }
+    
+    table.customTable thead {
+      background-color: #DBC63B;
+    }
+    </style>
+    
+    <!-- HTML Code: Place this code in the document's body (between the <body> tags) where the table should appear -->
+    <table class="customTable">
+      <thead>
+        <tr>
+          <th>Subject</th>
+          <th>Date</th>
+          <th>Holiday</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Hindi</td>
+          <td>12 September</td>
+          <td>4 days</td>
+        </tr>
+        <tr>
+          <td>Artifical Intelegence</td>
+          <td>14 September</td>
+          <td>2 days</td>
+        </tr>
+        <tr>
+          <td>English</td>
+          <td>16 September</td>
+          <td>2 days</td>
+        </tr>
+        <tr>
+          <td>Science</td>
+          <td>23 September</td>
+          <td>7 days</td>
+        </tr>
+        <tr>
+            <td>Social Science</td>
+            <td>26 September</td>
+            <td>3 days</td>
+          </tr>
+          <tr>
+            <td>Sanskrit</td>
+            <td>28 September</td>
+            <td>2 days</td>
+          </tr>
+          <tr>
+            <td>*Maths*</td>
+            <td>30 September</td>
+            <td>2 days</td>
+          </tr>
+      </tbody>
+    </table>
+    <!-- Generated at CSSPortal.com -->
+    
+    <hr>
+    <h2 style="text-align:center;">Timetable of class 9th  B/IX-B</h2>
+    <img src="images/ttm.jpg" width="500px" class="center">    
+    <h2 style="text-align:center;">More Features Coming Soon...</h2>
     <hr>
     <footer>
-    <p style="text-align:center;">Copyright 2022 <a href="https://simplehead.ga">Simplehead.ga</a></p>
+       
+    <p style="text-aligin:center;" id="date"></p>
     <p style="text-align:center;">Not Affiliated With DAV College Managing Committee</p>
     <p style="text-align: center;">connect with us at :</p>
     <a href="https://discord.gg/GtnZeMApAn"><img  src="images/Discord-Logo+Wordmark-White.png" alt="" width="100" class="center">
+    <h3>Do Not Click Me 🥚</h3>
     </footer>
 </body>
 <script src="app.js"></script>

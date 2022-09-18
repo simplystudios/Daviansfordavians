@@ -5,4 +5,4 @@ var d = new Date();
             var month = d.getMonth();
             var monthArr = ["January", "February","March", "April", "May", "June", "July", "August", "September", "October", "November","December"];
             month = monthArr[month];
-            document.getElementById("date").innerHTML= "©️ Copyright" +" "+ year;
+            document.getElementById("date").innerHTML= "©️ Copyright " +" "+ year;

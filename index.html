@@ -14,7 +14,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unoffical Class 9th-B Website</title>
+    <title>Davians For Davians - Home </title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,7 +23,7 @@
 </head>
 <style>
    .center {
-  padding: 20px;  
+  padding: 10px;  
   text-align: center;  
   margin: 5px 2px;  
   font-size: 30px; 
@@ -36,20 +36,26 @@
 </style>
 <body>
     <header>
-        <div id="ninesixty">
-            <img style="align-self: center;" src="images/Astha.png" alt="" width="100">
-    </div>
+      <ul class="container">
+          <img src="images/logo.png" class="logo" width="100px">
+          <li class="items"><a href="simplehead.ga">Exam Planner</a></li>
+          <li class="items"><a href="simplehead.ga">Timetable</a></li>
+          <li class="items"><a href="simplehead.ga">Books</a></li>
+          <li class="items"><a href="simplehead.ga">Notes</a></li>
+      </ul>
+       
         
     </header>
     
     
     <hr>
+    <img src="/images/banner.png" alt="" class="center-promo" width="100%" height="50%">
     <h1 style="text-align:center;">👋Welcome, 😀Student</h1>
-    <h1 style="text-align:center">🕒Exam In <h1 style="color: rgb(252, 221, 69);"id="demo"></h1>
+    <h1 style="text-align:center">🕒Exam In <h1 style="text-align:center; color: rgb(252, 221, 69);"id="demo"></h1>
         
         <script>
         // Set the date we're counting down to
-        var countDownDate = new Date("Sep 12, 2022 00:00:00").getTime();
+        var countDownDate = new Date("Sep 23, 2022 00:00:00").getTime();
         
         // Update the count down every 1 second
         var x = setInterval(function() {
@@ -73,7 +79,7 @@
           // If the count down is finished, write some text
           if (distance < 0) {
             clearInterval(x);
-            document.getElementById("demo").innerHTML = "EXPIRED";
+            document.getElementById("demo").innerHTML = "Next Exam Countdown Starting Soon";
           }
         }, 1000);
         </script>
@@ -155,16 +161,15 @@
     
     <hr>
     <h2 style="text-align:center;">Timetable of class 9th  B/IX-B</h2>
-    <img src="images/ttm.jpg" width="500px" class="center">    
+    <img src="images/ttm.jpg" width="500px" class="ttm">    
     <h2 style="text-align:center;">More Features Coming Soon...</h2>
     <hr>
     <footer>
-       
+    <img src="/images/logotext.png" alt="" width="30%" height="30%" class="center">
     <p style="text-aligin:center;" id="date"></p>
     <p style="text-align:center;">Not Affiliated With DAV College Managing Committee</p>
     <p style="text-align: center;">connect with us at :</p>
-    <a href="https://discord.gg/GtnZeMApAn"><img  src="images/Discord-Logo+Wordmark-White.png" alt="" width="100" class="center">
-    <h3>Do Not Click Me 🥚</h3>
+    <a href="https://discord.gg/GtnZeMApAn"><img  src="images/Discord-Logo+Wordmark-White.png" alt="" width="100" class="center"></a>
     </footer>
 </body>
 <script src="app.js"></script>

@@ -29,6 +29,14 @@ p{
     border-radius:8px;
     display:inline-block;
 }
+.ttm{
+  width: 60%; 
+  text-align: center;  
+  display: inline-block;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
   .styled-table {
     border-collapse: collapse;
@@ -56,22 +64,34 @@ p{
     margin-left: 10px;
     background-color:rgb(0, 0, 0);
     margin: 0 auto;
-    background-color: rgb(242, 242, 238);
+    background-color: rgb(53, 53, 49);
     border-radius:10px;
     display:flex;
     list-style-type: none;
 }
 .logo {
- background-color: rgb(242, 242, 238);
+ background-color: rgb(53, 53, 49);
  margin-right: auto;
 
 }
 .items{
-    background-color:rgb(242, 242, 238) ;
+    background-color:rgb(53, 53, 49) ;
     border-radius:10px;
     padding: 30px;
     width: auto;
     height
+}
+.items-img{
+  background-color:rgb(53, 53, 49) ;
+  border-radius:10px;
+  padding: 20px;
+  text-align: center;  
+  margin: 5px 2px;  
+  font-size: 30px; 
+  display: inline-block;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 a:link {
     color: #d5a96a;
@@ -113,7 +133,7 @@ a:link {
       margin: auto 0;
     }
     .center-promo {
-        width: 100%;
+        width: 90%;
     }
     .ttm{
         width: 100%; 
@@ -122,5 +142,26 @@ a:link {
         display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+    .logo{ 
+    text-align: center;  
+    margin: 5px 2px;  
+    font-size: 30px; 
+    display: inline-block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .items-img{
+      background-color:rgb(53, 53, 49) ;
+      border-radius:10px;
+      padding: 20px;
+      text-align: center;  
+      margin: 5px 2px;  
+      font-size: 30px; 
+      display: inline-block;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
   }

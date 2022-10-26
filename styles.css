@@ -1,5 +1,5 @@
 * {
-  
+  padding: auto;
   background: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
   font-family: popins;
@@ -111,8 +111,24 @@ p {
   margin-right: auto;
 }
 .social{
+  float: left;
   text-align: center;
+  padding-left: 25%;
+}
+.social-icons{
   font-size: xx-large;
+}
+.powered{
+  font-size: 20p;
+  text-align: center;
+  margin-left: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right: auto;
+  padding-top: 5px;
+}
+.link{
+  padding: 0px;
 }
 a:link {
   color: #d5a96a;
@@ -138,7 +154,6 @@ a:active {
   text-decoration: underline;
 }
 /* Three image containers (use 25% for four, and 50% for two, etc) */
-
 
 
 .img {
@@ -198,7 +213,11 @@ a:active {
     margin-left: auto;
     margin-right: auto;
   }
-
+  .social{
+    float: left;
+    text-align: center;
+    padding-left: 15%;
+  }
   .logo-small {
     visibility: visible;
     width: 70%;
